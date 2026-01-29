@@ -460,8 +460,6 @@ Action:
 | Agent | Invoke With |
 |-------|-------------|
 | kb-architect | `@kb-architect` |
-| prd-agent | `@prd-agent` |
-| spec-agent | `@spec-agent` |
 | python-developer | `@python-developer` |
 | test-generator | `@test-generator` |
 | code-reviewer | `@code-reviewer` |

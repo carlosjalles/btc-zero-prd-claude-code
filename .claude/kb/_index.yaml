@@ -2,7 +2,7 @@
 # Machine-readable registry for KB domains
 
 version: "1.0"
-last_updated: "2026-01-25"
+last_updated: "2026-01-28"
 
 # File Size Limits (SINGLE SOURCE OF TRUTH)
 limits:
@@ -309,3 +309,39 @@ domains:
         path: patterns/circuit-breaker.md
       - name: crew-coordination
         path: patterns/crew-coordination.md
+
+  openrouter:
+    name: OpenRouter
+    description: Unified LLM API gateway providing access to 400+ AI models with automatic fallback, load balancing, and cost optimization
+    path: openrouter/
+    mcp_validated: "2026-01-28"
+    entry_points:
+      index: index.md
+      quick_reference: quick-reference.md
+    concepts:
+      - name: api-basics
+        path: concepts/api-basics.md
+        confidence: 0.95
+      - name: authentication
+        path: concepts/authentication.md
+        confidence: 0.95
+      - name: model-selection
+        path: concepts/model-selection.md
+        confidence: 0.95
+      - name: streaming
+        path: concepts/streaming.md
+        confidence: 0.95
+      - name: rate-limits
+        path: concepts/rate-limits.md
+        confidence: 0.95
+    patterns:
+      - name: python-sdk-integration
+        path: patterns/python-sdk-integration.md
+      - name: cost-optimization
+        path: patterns/cost-optimization.md
+      - name: error-handling
+        path: patterns/error-handling.md
+      - name: provider-routing
+        path: patterns/provider-routing.md
+      - name: langchain-integration
+        path: patterns/langchain-integration.md
